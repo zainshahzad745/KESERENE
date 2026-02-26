@@ -10,5 +10,20 @@ export const PRODUCTS = [
     { id: "8", name: "Snail Mucin Gel", price: 2500, image: "/images/product-2.png", category: "Moisturizer", description: "Lightweight gel moisturizer." },
 ];
 
-export const CART: any[] = [];
-export const ORDERS: any[] = [];
+export interface CartItem {
+    id: string;
+    name: string;
+    price: number;
+    image: string;
+    quantity: number;
+}
+
+export interface Order {
+    id: string;
+    date: string;
+    items: CartItem[];
+    total: number;
+}
+
+export const CART: CartItem[] = [];
+export const ORDERS: Order[] = [];

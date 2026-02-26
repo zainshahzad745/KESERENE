@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, Beaker, ShieldCheck, Droplets, Leaf } from "lucide-react";
 
@@ -54,7 +53,7 @@ export default function WhyKoreanSkincare() {
                                     <span className="text-red-500 mr-4 font-bold">✕</span>
                                     <div>
                                         <h4 className="font-medium text-foreground mb-1">Eradication</h4>
-                                        <p className="text-sm text-foreground/60 leading-relaxed font-light">Focuses on "burning off" problems with high-strength, irritating acids (like 10% benzoyl peroxide).</p>
+                                        <p className="text-sm text-foreground/60 leading-relaxed font-light">Focuses on &quot;burning off&quot; problems with high-strength, irritating acids (like 10% benzoyl peroxide).</p>
                                     </div>
                                 </li>
                                 <li className="flex items-start">
@@ -68,7 +67,7 @@ export default function WhyKoreanSkincare() {
                                     <span className="text-red-500 mr-4 font-bold">✕</span>
                                     <div>
                                         <h4 className="font-medium text-foreground mb-1">Stripping Cleansers</h4>
-                                        <p className="text-sm text-foreground/60 leading-relaxed font-light">Uses high-pH foaming cleansers that leave the skin feeling "squeaky clean" (which means the acid mantle is destroyed).</p>
+                                        <p className="text-sm text-foreground/60 leading-relaxed font-light">Uses high-pH foaming cleansers that leave the skin feeling &quot;squeaky clean&quot; (which means the acid mantle is destroyed).</p>
                                     </div>
                                 </li>
                                 <li className="flex items-start">
@@ -96,7 +95,7 @@ export default function WhyKoreanSkincare() {
                                     <span className="text-accent-light mr-4 font-bold">✓</span>
                                     <div>
                                         <h4 className="font-medium mb-1">Long-Term Resilience</h4>
-                                        <p className="text-sm text-background/60 leading-relaxed font-light">Focuses on fortifying the skin's lipid barrier so it can protect itself naturally.</p>
+                                        <p className="text-sm text-background/60 leading-relaxed font-light">Focuses on fortifying the skin&apos;s lipid barrier so it can protect itself naturally.</p>
                                     </div>
                                 </li>
                                 <li className="flex items-start">
@@ -136,7 +135,7 @@ export default function WhyKoreanSkincare() {
                         <Leaf className="w-8 h-8 stroke-[1.5] mb-6 text-foreground group-hover:text-background" />
                         <h3 className="text-lg font-medium tracking-tight mb-2">Centella Asiatica (Cica)</h3>
                         <p className="text-sm text-foreground/60 group-hover:text-background/70 font-light leading-relaxed">
-                            Known as "tiger grass", this powerful herb instantly calms redness, severe inflammation, and repairs compromised skin barriers.
+                            Known as &quot;tiger grass&quot;, this powerful herb instantly calms redness, severe inflammation, and repairs compromised skin barriers.
                         </p>
                     </div>
 

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import ProductCard from "@/components/product/ProductCard";
 import ParticleBackground from "@/components/ui/ParticleBackground";
@@ -119,7 +118,7 @@ export default function Home() {
             <div>
               <h2 className="text-4xl md:text-5xl font-medium tracking-tight mb-8">Authentic K-Beauty.</h2>
               <p className="text-background/70 text-lg font-light leading-relaxed mb-6">
-                You shouldn't have to navigate a maze of counterfeits or complex customs to get the skincare your skin deserves.
+                You shouldn&apos;t have to navigate a maze of counterfeits or complex customs to get the skincare your skin deserves.
               </p>
               <p className="text-background/70 text-lg font-light leading-relaxed">
                 KSerene bridges the gap between Pakistan and the heart of Korean skincare. We meticulously curate, vet, and import only the most effective, genuine products focused on barrier health and gentle radiance.
