@@ -206,7 +206,7 @@ export default function Home() {
             {/* Insta Embed 1 */}
             <div className="w-full flex justify-center bg-white p-2">
               <iframe
-                src="https://www.instagram.com/reel/DUBHyFaiHwQ/embed"
+                src="https://www.instagram.com/p/DNBRlXVo7Qx/embed"
                 width="100%"
                 height="480"
                 frameBorder="0"
@@ -219,7 +219,7 @@ export default function Home() {
             {/* Insta Embed 2 */}
             <div className="w-full flex justify-center bg-white p-2">
               <iframe
-                src="https://www.instagram.com/p/DFS7pL_IBwO/embed"
+                src="https://www.instagram.com/p/DNqeDs6o6dl/embed"
                 width="100%"
                 height="480"
                 frameBorder="0"
@@ -232,7 +232,7 @@ export default function Home() {
             {/* Insta Embed 3 */}
             <div className="w-full flex justify-center bg-white p-2">
               <iframe
-                src="https://www.instagram.com/p/DGQ-2rZIoh5/embed"
+                src="https://www.instagram.com/p/DHWlY50xKBH/embed"
                 width="100%"
                 height="480"
                 frameBorder="0"
