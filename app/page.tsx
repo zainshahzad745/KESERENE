@@ -1,8 +1,9 @@
+import Image from "next/image";
 import Link from "next/link";
 import ProductCard from "@/components/product/ProductCard";
 import ParticleBackground from "@/components/ui/ParticleBackground";
 import Marquee from "@/components/ui/Marquee";
-import { Leaf, Droplets, Sparkles, ArrowRight } from "lucide-react";
+import { Leaf, Droplets, Sparkles, ArrowRight, ArrowUpRight } from "lucide-react";
 
 const FEATURED_PRODUCTS = [
   { id: "1", name: "Radiant Essence Serum", price: 4500, image: "/images/product-1.png", category: "Serum" },
@@ -177,6 +178,68 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-medium tracking-tight mb-4">Seal</h3>
               <p className="text-foreground/60 text-sm font-light leading-relaxed max-w-xs">Lock in the active ingredients with a ceramide-rich moisturizer to fortify your barrier.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Instagram Grid Section */}
+      <section className="py-24 bg-foreground text-background">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 space-y-6 md:space-y-0">
+            <div>
+              <span className="text-[10px] uppercase tracking-[0.3em] font-bold text-background/50 mb-4 block">Community</span>
+              <h2 className="text-4xl md:text-5xl font-medium tracking-tight">Rituals in Motion.</h2>
+            </div>
+            <a
+              href="https://www.instagram.com/kserene.pk/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-center text-sm uppercase tracking-widest font-medium hover:text-background/70 transition-colors"
+            >
+              @kserene.pk
+              <ArrowUpRight className="w-5 h-5 ml-2 group-hover:-translate-y-1 group-hover:translate-x-1 transition-transform" />
+            </a>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Insta Embed 1 */}
+            <div className="w-full flex justify-center bg-white p-2">
+              <iframe
+                src="https://www.instagram.com/reel/DUBHyFaiHwQ/embed"
+                width="100%"
+                height="480"
+                frameBorder="0"
+                scrolling="no"
+                allowTransparency={true}
+                className="max-w-[400px]"
+              ></iframe>
+            </div>
+
+            {/* Insta Embed 2 */}
+            <div className="w-full flex justify-center bg-white p-2">
+              <iframe
+                src="https://www.instagram.com/p/DFS7pL_IBwO/embed"
+                width="100%"
+                height="480"
+                frameBorder="0"
+                scrolling="no"
+                allowTransparency={true}
+                className="max-w-[400px]"
+              ></iframe>
+            </div>
+
+            {/* Insta Embed 3 */}
+            <div className="w-full flex justify-center bg-white p-2">
+              <iframe
+                src="https://www.instagram.com/p/DGQ-2rZIoh5/embed"
+                width="100%"
+                height="480"
+                frameBorder="0"
+                scrolling="no"
+                allowTransparency={true}
+                className="max-w-[400px]"
+              ></iframe>
             </div>
           </div>
         </div>
